@@ -1,0 +1,4 @@
+.venv/*
+__pycache/
+progress_tracker.json
+*.pyc
