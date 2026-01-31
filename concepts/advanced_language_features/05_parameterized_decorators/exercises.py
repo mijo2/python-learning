@@ -1,26 +1,27 @@
-# Parameterized Decorators Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-# Exercise: Create a parameterized decorator that retries a function
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-def retry_on_failure(max_retries):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            for attempt in range(max_retries + 1):
-                try:
-                    return func(*args, **kwargs)
-                except Exception as e:
-                    if attempt == max_retries:
-                        raise e
-                    print(f"Attempt {attempt + 1} failed, retrying...")
-        return wrapper
-    return decorator
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 05_parameterized_decorators functionality
+def basic_function():
+    # TODO: Add implementation
+    pass
 
-# TODO: Apply @retry_on_failure(2) to a function that may fail
-# Uncomment
-# @retry_on_failure(2)
-# def risky_func():
-#     if random.choice([True, False]):
-#         raise ValueError("Random failure")
-#     return "Success"
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 05_parameterized_decorators features
+def advanced_function():
+    # TODO: Add implementation
+    pass
 
-# risky_func()
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

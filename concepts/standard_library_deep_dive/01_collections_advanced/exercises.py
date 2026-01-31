@@ -1,21 +1,45 @@
-# Collections Advanced Types Exercises
+"""
+01 COLLECTIONS ADVANCED — EXERCISES
 
-from collections import Counter, deque
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# Exercise: Use Counter to count words in a list
 
-words = ['apple', 'banana', 'apple', 'cherry']
+# Exercise 1: Context manager usage
+# TODO: Use contextlib for resource management
+from contextlib import contextmanager
 
-# TODO: Create Counter for words and print most common
-# Uncomment
-# counter = Counter(words)
-# print(counter.most_common(1))
+@contextmanager
+def managed_resource(name):
+    """Simple context manager"""
+    # TODO: Setup code (print acquisition)
+    # TODO: Yield resource
+    # TODO: Cleanup code (print release)
+    pass
 
-# Exercise: Use deque as a queue
+# Exercise 2: Weak references demonstration
+# TODO: Show weak reference usage and cleanup
+import weakref
 
-# TODO: Create deque, append items, popleft
-# Uncomment
-# dq = deque()
-# dq.append(1)
-# dq.append(2)
-# print(dq.popleft())
+def weak_reference_demo():
+    """Demonstrate weak references"""
+    # TODO: Create object
+    # TODO: Create weak reference
+    # TODO: Delete strong reference
+    # TODO: Show weak reference behavior
+    pass
+
+# Exercise 3: Inspect module usage
+# TODO: Use inspect to examine live objects
+import inspect
+
+def inspect_demo():
+    """Use inspect module"""
+    # TODO: Define function
+    # TODO: Use inspect to get signature
+    # TODO: Use inspect to get source
+    # TODO: Check function properties
+    pass

@@ -1,70 +1,46 @@
 """
-LIST COMPREHENSION — EXERCISES
+LIST COMPREHENSIONS — EXERCISES
 
 Instructions:
-- Solve each exercise using list comprehensions ONLY.
-- Do not use normal loops unless explicitly allowed.
-- Print results to verify correctness.
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
 """
 
 
-# Exercise 1
-# Create a list of squares from 1 to 10
-# Expected: [1, 4, 9, ..., 100]
-nums = list(range(1, 11))
-result1 = None  # TODO
-print("Ex1:", result1)
+# Exercise 1: Basic list comprehensions
+# TODO: Create a list of squares for numbers 1 through 10
+def create_squares():
+    """Return a list of squares from 1 to 10 using list comprehension"""
+    # TODO: Use list comprehension to generate [1, 4, 9, 16, ..., 100]
+    pass
 
+# Exercise 2: List comprehension with filtering
+# TODO: Filter even numbers and square them
+def filter_and_square_evens():
+    """Return squares of even numbers from 1 to 20"""
+    # TODO: Use list comprehension with condition to filter evens
+    # TODO: Square only the even numbers
+    pass
 
-# Exercise 2
-# From this list, extract only numbers divisible by 3
-nums = list(range(1, 31))
-result2 = None  # TODO
-print("Ex2:", result2)
+# Exercise 3: Nested list comprehensions
+# TODO: Create a multiplication table using nested comprehensions
+def multiplication_table(n):
+    """Create n x n multiplication table"""
+    # TODO: Use nested list comprehensions
+    # TODO: Generate table where table[i][j] = (i+1) * (j+1)
+    pass
 
+# Exercise 4: Dictionary comprehensions
+# TODO: Create dictionary mapping numbers to their squares
+def number_square_dict():
+    """Return dict where keys are numbers 1-10, values are squares"""
+    # TODO: Use dictionary comprehension
+    pass
 
-# Exercise 3
-# Convert all words to lowercase and keep only words with length > 4
-words = ["Python", "APPLE", "sky", "COMPUTER", "AI"]
-result3 = None  # TODO
-print("Ex3:", result3)
-
-
-# Exercise 4
-# Create list of tuples (n, n^2) for numbers 1–8
-result4 = None  # TODO
-print("Ex4:", result4)
-
-
-# Exercise 5
-# Flatten this matrix into a single list
-matrix = [
-    [1, 2, 3],
-    [4, 5],
-    [6, 7, 8]
-]
-result5 = None  # TODO
-print("Ex5:", result5)
-
-
-# Exercise 6 — conditional expression inside comprehension
-# Replace negative numbers with 0
-nums = [3, -1, 5, -9, 2]
-result6 = None  # TODO
-print("Ex6:", result6)
-
-
-# Exercise 7 — nested comprehension with condition
-# Create all (x, y) pairs where:
-# x in 1..4
-# y in 1..4
-# x != y
-result7 = None  # TODO
-print("Ex7:", result7)
-
-
-# Exercise 8 — challenge
-# From this sentence, create a list of word lengths
-sentence = "List comprehensions are powerful"
-result8 = None  # TODO
-print("Ex8:", result8)
+# Exercise 5: Set comprehensions
+# TODO: Create set of unique lengths from a list of words
+def word_lengths_set(words):
+    """Return set of unique word lengths"""
+    # TODO: Use set comprehension to get lengths
+    pass

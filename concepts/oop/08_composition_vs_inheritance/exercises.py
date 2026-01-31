@@ -1,20 +1,44 @@
-# Composition vs Inheritance Exercises
+"""
+08 COMPOSITION VS INHERITANCE — EXERCISES
 
-# Exercise: Composition vs Inheritance
-# Refactor a previous class to use composition instead of inheritance.
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# TODO: If you had inheritance, change to composition
-# For example, if Car inherited Engine, change to composition
 
-# Assuming we have Engine and Car from earlier
-# Change to composition
+# Exercise 1: Basic class implementation
+# TODO: Create a class with __init__ method and basic attributes
+class BasicClass:
+    """A basic class with initialization"""
+    # TODO: Implement __init__ method
+    # TODO: Add instance attributes
+    pass
 
-class Engine:
-    def start(self):
-        print("Engine started")
+# Exercise 2: Add methods to class
+# TODO: Add instance methods to the basic class
+def add_methods_to_class():
+    """Add methods to existing class"""
+    # TODO: Add instance method
+    # TODO: Add class method
+    # TODO: Add static method
+    pass
 
-class Car:
-    pass  # TODO: Implement using composition
+# Exercise 3: Inheritance basics
+# TODO: Create subclass that inherits from BasicClass
+class SubClass(BasicClass):
+    """Subclass demonstrating inheritance"""
+    # TODO: Call parent __init__
+    # TODO: Add additional attributes
+    # TODO: Override parent methods
+    pass
 
-car = Car()
-car.start()
+# Exercise 4: Polymorphism demonstration
+# TODO: Show method overriding and polymorphism
+def demonstrate_polymorphism():
+    """Create objects and call methods polymorphically"""
+    # TODO: Create instances of different classes
+    # TODO: Call same method on different objects
+    # TODO: Show different behaviors
+    pass

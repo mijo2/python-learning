@@ -1,19 +1,27 @@
-# Generators Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-# Exercise: Create a generator for prime numbers
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
-
-def primes(limit):
-    # TODO: Yield primes up to limit
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 06_generators functionality
+def basic_function():
+    # TODO: Add implementation
     pass
 
-# Uncomment to test
-# for p in primes(10):
-#     print(p)  # 2 3 5 7
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 06_generators features
+def advanced_function():
+    # TODO: Add implementation
+    pass
+
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

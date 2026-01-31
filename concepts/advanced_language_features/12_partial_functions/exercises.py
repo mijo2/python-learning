@@ -1,18 +1,27 @@
-# Partial Functions Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-from functools import partial
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# Exercise: Use partial to create math operations
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 12_partial_functions functionality
+def basic_function():
+    # TODO: Add implementation
+    pass
 
-def operate(a, b, op):
-    if op == '+':
-        return a + b
-    elif op == '-':
-        return a - b
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 12_partial_functions features
+def advanced_function():
+    # TODO: Add implementation
+    pass
 
-# TODO: Create add and subtract functions
-# Uncomment
-# add = partial(operate, op='+')
-# subtract = partial(operate, op='-')
-# print(add(5, 3))     # 8
-# print(subtract(5, 3)) # 2
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

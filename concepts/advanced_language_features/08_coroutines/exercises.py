@@ -1,23 +1,27 @@
-# Coroutines Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-# Exercise: Create a coroutine that collects strings and returns concatenated
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-def string_collector():
-    collected = []
-    while True:
-        s = (yield)
-        if s is None:
-            break
-        collected.append(s)
-    return "".join(collected)
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 08_coroutines functionality
+def basic_function():
+    # TODO: Add implementation
+    pass
 
-# Uncomment to test
-# c = string_collector()
-# next(c)
-# c.send("Hello")
-# c.send(" ")
-# c.send("World")
-# try:
-#     c.send(None)
-# except StopIteration as e:
-#     print(e.value)  # Hello World
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 08_coroutines features
+def advanced_function():
+    # TODO: Add implementation
+    pass
+
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

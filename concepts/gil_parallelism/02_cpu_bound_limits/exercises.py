@@ -1,21 +1,39 @@
-# CPU Bound Threading Limits Exercises
+"""
+02 CPU BOUND LIMITS — EXERCISES
 
-import threading
-import time
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-def cpu_task(n):
-    return sum(i for i in range(n))
 
-# Exercise: Time single vs threaded
+# Exercise 1: CPU-bound task identification
+# TODO: Identify if a task is CPU-bound or IO-bound
+def identify_task_type():
+    """Analyze different tasks and classify them"""
+    # TODO: Create CPU-intensive task (mathematical computation)
+    # TODO: Create IO-intensive task (simulated file/network operations)
+    # TODO: Time both tasks
+    # TODO: Classify based on results
+    pass
 
-# TODO: Run single and with 2 threads, print times
-# Uncomment
-# start = time.time()
-# cpu_task(10**7)
-# print(f"Single: {time.time() - start:.2f}s")
+# Exercise 2: Demonstrate GIL impact
+# TODO: Show how GIL affects multithreaded CPU-bound tasks
+def gil_impact_demo():
+    """Compare single-threaded vs multithreaded CPU tasks"""
+    # TODO: Create CPU-intensive function
+    # TODO: Run single-threaded
+    # TODO: Run multithreaded
+    # TODO: Compare performance (should be similar due to GIL)
+    pass
 
-# threads = [threading.Thread(target=cpu_task, args=(10**7,)) for _ in range(2)]
-# start = time.time()
-# for t in threads: t.start()
-# for t in threads: t.join()
-# print(f"Threaded: {time.time() - start:.2f}s")
+# Exercise 3: IO-bound threading benefits
+# TODO: Show threading benefits for IO-bound tasks
+def io_threading_benefits():
+    """Demonstrate threading advantages for IO operations"""
+    # TODO: Create IO-intensive tasks (simulated delays)
+    # TODO: Run sequentially
+    # TODO: Run with threading
+    # TODO: Show performance improvement
+    pass

@@ -1,20 +1,44 @@
-# Mixins Exercises
+"""
+07 MIXINS — EXERCISES
 
-# Exercise: Mixins
-# Create mixins 'Serializable' and 'Loggable'.
-# Create a class 'DataHandler' that uses both mixins.
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# TODO: Implement mixins and class
-class Serializable:
+
+# Exercise 1: Basic class implementation
+# TODO: Create a class with __init__ method and basic attributes
+class BasicClass:
+    """A basic class with initialization"""
+    # TODO: Implement __init__ method
+    # TODO: Add instance attributes
     pass
 
-class Loggable:
+# Exercise 2: Add methods to class
+# TODO: Add instance methods to the basic class
+def add_methods_to_class():
+    """Add methods to existing class"""
+    # TODO: Add instance method
+    # TODO: Add class method
+    # TODO: Add static method
     pass
 
-class DataHandler(Serializable, Loggable):
+# Exercise 3: Inheritance basics
+# TODO: Create subclass that inherits from BasicClass
+class SubClass(BasicClass):
+    """Subclass demonstrating inheritance"""
+    # TODO: Call parent __init__
+    # TODO: Add additional attributes
+    # TODO: Override parent methods
     pass
 
-# Test
-# handler = DataHandler([1,2,3])
-# handler.save()  # Should print "Logging: Saving data" and "Data saved"
-# handler.load()  # Should print "Logging: Loading data" and "Data loaded"
+# Exercise 4: Polymorphism demonstration
+# TODO: Show method overriding and polymorphism
+def demonstrate_polymorphism():
+    """Create objects and call methods polymorphically"""
+    # TODO: Create instances of different classes
+    # TODO: Call same method on different objects
+    # TODO: Show different behaviors
+    pass

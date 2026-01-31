@@ -1,15 +1,27 @@
-# Process Pools Exercises
+"""
+MULTIPROCESSING SUBMULTIPROCESSING — EXERCISES
 
-from multiprocessing import Pool
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-def double(x):
-    return x * 2
+# Exercise 1: Basic implementation
+# TODO: Implement basic multiprocessing 02_process_pools functionality
+def basic_function():
+    # TODO: Add implementation
+    pass
 
-# Exercise: Use Pool to double numbers in parallel
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced multiprocessing 02_process_pools features
+def advanced_function():
+    # TODO: Add implementation
+    pass
 
-# TODO: Create pool with 2 processes, map double to [1,2,3,4]
-# Uncomment
-# if __name__ == '__main__':
-#     with Pool(2) as p:
-#         results = p.map(double, [1, 2, 3, 4])
-#         print(results)
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

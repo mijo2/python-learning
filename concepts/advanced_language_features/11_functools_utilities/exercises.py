@@ -1,15 +1,27 @@
-# functools Utilities Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-from functools import partial, lru_cache
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# Exercise: Use partial to create a greeting function
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 11_functools_utilities functionality
+def basic_function():
+    # TODO: Add implementation
+    pass
 
-def greet(greeting, name):
-    return f"{greeting}, {name}!"
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 11_functools_utilities features
+def advanced_function():
+    # TODO: Add implementation
+    pass
 
-# TODO: Create hello and goodbye functions
-# Uncomment
-# hello = partial(greet, "Hello")
-# goodbye = partial(greet, "Goodbye")
-# print(hello("Alice"))  # Hello, Alice!
-# print(goodbye("Bob"))  # Goodbye, Bob!
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

@@ -1,17 +1,27 @@
-# Context Managers Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-from contextlib import contextmanager
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# Exercise: Create a context manager for changing directory
-
-import os
-
-@contextmanager
-def change_dir(path):
-    # TODO: Save current dir, change to path, yield, then restore
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 09_context_managers functionality
+def basic_function():
+    # TODO: Add implementation
     pass
 
-# Uncomment to test
-# with change_dir('/tmp'):
-#     print(os.getcwd())
-# print(os.getcwd())  # Back to original
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 09_context_managers features
+def advanced_function():
+    # TODO: Add implementation
+    pass
+
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

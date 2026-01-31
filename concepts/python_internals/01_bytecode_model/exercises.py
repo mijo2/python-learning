@@ -1,26 +1,45 @@
-# Bytecode Model Exercises
+"""
+01 BYTECODE MODEL — EXERCISES
 
-import dis
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# Exercise 1: Disassemble a simple function
-# Create a function that multiplies two numbers and prints its bytecode.
 
-# TODO: Define a multiply function and disassemble it
-def multiply(a, b):
-    return a * b
+# Exercise 1: Explore object identity and type
+# TODO: Use id(), type(), and isinstance() functions
+def object_introspection():
+    """Examine Python objects using built-in functions"""
+    # TODO: Create different types of objects
+    # TODO: Use id() to check identity
+    # TODO: Use type() to check type
+    # TODO: Use isinstance() for type checking
+    pass
 
-# Uncomment to see bytecode
-# dis.dis(multiply)
+# Exercise 2: Memory management basics
+# TODO: Demonstrate reference counting concepts
+def reference_counting_demo():
+    """Show how reference counting works"""
+    import sys
+    
+    # TODO: Create object and check reference count
+    # TODO: Create additional references
+    # TODO: Delete references and observe count changes
+    # TODO: Force garbage collection
+    pass
 
-# Exercise 2: Analyze conditional bytecode
-# Write an if-else statement and disassemble it.
-
-# TODO: Define a function with if-else
-def check_positive(n):
-    if n > 0:
-        return "Positive"
-    else:
-        return "Not positive"
-
-# Uncomment to see bytecode
-# dis.dis(check_positive)
+# Exercise 3: Bytecode examination
+# TODO: Look at Python bytecode using dis module
+def bytecode_inspection():
+    """Examine Python bytecode"""
+    import dis
+    
+    # TODO: Define a simple function
+    def multiply(a, b):
+        return a * b
+    # TODO: Use dis.dis() to show bytecode
+    dis.dis(multiply)
+    # TODO: Understand basic bytecode instructions
+    pass

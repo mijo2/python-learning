@@ -1,19 +1,27 @@
-# Generator Pipelines Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-# Exercise: Create a pipeline to filter and transform numbers
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-def numbers(n):
-    for i in range(n):
-        yield i
-
-def filter_even(nums):
-    # TODO: Yield even numbers
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 07_generator_pipelines functionality
+def basic_function():
+    # TODO: Add implementation
     pass
 
-def multiply_by_2(nums):
-    # TODO: Yield num * 2
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 07_generator_pipelines features
+def advanced_function():
+    # TODO: Add implementation
     pass
 
-# Uncomment to test
-# pipeline = multiply_by_2(filter_even(numbers(10)))
-# print(list(pipeline))  # [0, 4, 8, 12, 16]
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")

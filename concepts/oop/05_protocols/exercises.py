@@ -1,27 +1,44 @@
-# Protocols Exercises
+"""
+05 PROTOCOLS — EXERCISES
 
-# Exercise: Protocols
-# Define a Protocol 'Drawable' with method 'draw'.
-# Create classes 'Text' and 'Image' that implement Drawable.
-# Write a function that takes a Drawable and calls draw.
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# TODO: Implement Protocol and classes
-from typing import Protocol
 
-class Drawable(Protocol):
+# Exercise 1: Basic class implementation
+# TODO: Create a class with __init__ method and basic attributes
+class BasicClass:
+    """A basic class with initialization"""
+    # TODO: Implement __init__ method
+    # TODO: Add instance attributes
     pass
 
-class Text:
+# Exercise 2: Add methods to class
+# TODO: Add instance methods to the basic class
+def add_methods_to_class():
+    """Add methods to existing class"""
+    # TODO: Add instance method
+    # TODO: Add class method
+    # TODO: Add static method
     pass
 
-class Image:
+# Exercise 3: Inheritance basics
+# TODO: Create subclass that inherits from BasicClass
+class SubClass(BasicClass):
+    """Subclass demonstrating inheritance"""
+    # TODO: Call parent __init__
+    # TODO: Add additional attributes
+    # TODO: Override parent methods
     pass
 
-def render(obj):
+# Exercise 4: Polymorphism demonstration
+# TODO: Show method overriding and polymorphism
+def demonstrate_polymorphism():
+    """Create objects and call methods polymorphically"""
+    # TODO: Create instances of different classes
+    # TODO: Call same method on different objects
+    # TODO: Show different behaviors
     pass
-
-# Test
-# text = Text("Hello")
-# img = Image("pic.png")
-# render(text)  # Should print "Drawing text: Hello"
-# render(img)   # Should print "Drawing image: pic.png"

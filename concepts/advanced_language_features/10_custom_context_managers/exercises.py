@@ -1,15 +1,27 @@
-# Custom Context Managers Exercises
+"""
+ADVANCED LANGUAGE FEATURES SUBADVANCED LANGUAGE FEATURES — EXERCISES
 
-from contextlib import contextmanager
+Instructions:
+- Implement the following exercises with TODO guidance
+- Each exercise shows what needs to be implemented
+- Test your implementations after completion
+"""
 
-# Exercise: Create a context manager that measures execution time
-
-@contextmanager
-def time_execution():
-    # TODO: Record start time, yield, then print elapsed
+# Exercise 1: Basic implementation
+# TODO: Implement basic advanced_language_features 10_custom_context_managers functionality
+def basic_function():
+    # TODO: Add implementation
     pass
 
-# Uncomment to test
-# with time_execution():
-#     import time
-#     time.sleep(0.5)  # Should print ~0.5s
+# Exercise 2: Advanced usage  
+# TODO: Implement advanced advanced_language_features 10_custom_context_managers features
+def advanced_function():
+    # TODO: Add implementation
+    pass
+
+# Test code (uncomment after implementation)
+# if __name__ == "__main__":
+#     result1 = basic_function()
+#     print(f"Basic result: {result1}")
+#     result2 = advanced_function()
+#     print(f"Advanced result: {result2}")
